@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "username",
+  "password": "",
+  "database": "task_db",
+  "entities": ["./src/entities/*.entity.ts"],
+  "synchronize": true
+}
