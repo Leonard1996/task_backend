@@ -14,3 +14,7 @@ For this we might take different approaches, given that the bank rates dont chan
 ## How would it be possible to speed up the execution of requests if the task allowed you to update market data once a day or even less frequently?
 
 The only thing that comes to mind here is some caching mechanism, insert into memeroy cache data once a day or so. Maybe this might be useful for future functionalities but for functionalities that I have implemented I can't see an easy way to implement caching since the ask value can't be cached as it changes everytime.
+
+## personal overview
+
+I did ommit some stuff like super strict ts, docker, env files/variables etc, as I had a super busy month at my current work, hopefully you are understanding in this regard.
