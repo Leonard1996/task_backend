@@ -21,7 +21,7 @@ export class Parser {
       case FORMATS.TXT:
         const data = fs.readFileSync(path, "utf-8");
         const result = Parser.parseTxt(data);
-        // Parser.seedDb(result);
+        Parser.seedDb(result);
         break;
     }
   }
