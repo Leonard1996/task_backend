@@ -18,3 +18,7 @@ The only thing that comes to mind here is some caching mechanism, insert into me
 ## personal overview
 
 I did ommit some stuff like super strict ts, docker, env files/variables etc, as I had a super busy month at my current work, hopefully you are understanding in this regard.
+
+## notes about the task critera
+
+for TASK 2 query I took it for granted that in rates tables exists a row USD -> USD in=1, out=1
