@@ -22,3 +22,4 @@ I did ommit some stuff like super strict ts, docker, env files/variables etc, as
 ## notes about the task critera
 
 for TASK 2 query I took it for granted that in rates tables exists a row USD -> USD in=1, out=1
+and for the given file, if exchange-offices is array, which it should, doesn't make sense to have countries inside it, since countries is key of another array, so I put countries in same hierarchy as exchange-offices, also from a DB standpoint this makes sense better as countries table is separate entity from exchange-offices
